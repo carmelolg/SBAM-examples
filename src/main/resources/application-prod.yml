@@ -1,0 +1,17 @@
+# Custom properties
+environment:
+  name: prod
+  description: Production
+
+# Spring configurations
+spring:
+  devtools:
+    restart:
+      enabled: false
+
+# Logging properties
+logging:
+  level:
+    web: INFO
+    it.carmelolagamba: INFO
+    org.springframework: WARN

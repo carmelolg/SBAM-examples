@@ -1,0 +1,23 @@
+# Custom properties
+version: 2.1.0
+name: Spring Boot Architecture for Microservice
+description: A template for Spring Boot microservices with OpenAPI and Docker files
+
+server:
+  port: 8080
+
+# Kubernetes availability configuration
+management:
+  endpoint:
+    health:
+      probes:
+        enabled: true
+      livenessState:
+        enabled: true
+      readinessState:
+        enabled: true
+
+# OpenAI properties
+springdoc:
+  packagesToScan: it.carmelolagamba
+  pathsToMatch: /, /*/**

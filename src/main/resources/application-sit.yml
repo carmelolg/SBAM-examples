@@ -1,0 +1,11 @@
+# Custom properties
+environment:
+  name: sit
+  description: System Integration Test
+
+# Logging properties
+logging:
+  level:
+    web: DEBUG
+    it.carmelolagamba: DEBUG
+    org.springframework: INFO

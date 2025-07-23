@@ -1,0 +1,11 @@
+# Custom properties
+environment:
+  name: dev
+  description: Development environment
+
+# Logging properties
+logging:
+  level:
+    web: DEBUG
+    it.carmelolagamba: DEBUG
+    org.springframework: INFO
