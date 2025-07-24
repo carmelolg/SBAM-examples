@@ -9,3 +9,11 @@ logging:
     web: DEBUG
     it.carmelolagamba: DEBUG
     org.springframework: INFO
+
+integration:
+  jsonplaceholder:
+    base-url: https://jsonplaceholder.typicode.com/
+    default-timeout: 5000
+    default-headers:
+      Content-Type: application/json
+      Accept: application/json
